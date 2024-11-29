@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #555;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+ul ul, ol ol {
+    margin-left: 20px;
+}

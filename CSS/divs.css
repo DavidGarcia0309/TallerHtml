@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilos para los divs */
+div {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto de hover en el div */
+div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Estilos para los encabezados */
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}

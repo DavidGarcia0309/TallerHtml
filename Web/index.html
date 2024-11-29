@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Mejorado</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <aside class="sidebar" id="main-sidebar">
+    <h2 class="sidebar-title">Proyectos</h2>
+    
+    <ol class="project-list">
+      <li class="project-item">Borradores</li>
+      <li class="project-item">Compartido Conmigo</li>
+    </ol>
+    <button class="btn-primary">Nuevo Borrador</button>
+    <button class="btn-secondary">Nuevo Proyecto</button>
+   
+    <section class="sidebar-stats">
+      <h4>Estadísticas</h4>
+      <p>Proyectos Activos: 5</p>
+      <p>Tareas Completadas: 12</p>
+    </section>
+  </aside>
+
+  <div class="main">
+    <header class="main-header">
+      <h1>Side Hustle</h1>
+     
+      <nav class="main-nav">
+        <a href="#" class="nav-link">Inicio</a>
+        <a href="#" class="nav-link">Equipo</a>
+        <a href="#" class="nav-link">Configuración</a>
+      </nav>
+    </header>
+
+    <div class="board">
+      <div class="column" id="ideas-column">
+        <h3><span class="dot blue"></span>Ideas</h3>
+        <div class="note">
+          <p><strong>Design Moodboard:</strong> Create a visual inspiration board for the product's look and feel.</p>
+          <img src="https://th.bing.com/th/id/OIP.QeN9ni8j7gZz8N7NYIhEXgHaD4?rs=1&pid=ImgDetMain" >
+        </div>
+        <button class="add-note-btn">Add Note</button>
+      </div>
+
+      <div class="column" id="progress-column">
+        <h3><span class="dot yellow"></span>Features / Work in Progress</h3>
+        <div class="note">
+          <p><strong>API Design:</strong> Define endpoints and structure for seamless integration.</p>
+        </div>
+        <div class="note">
+          <p><strong>Hi-Fi Prototypes:</strong> Finalize interactive prototypes for user testing.</p>
+        </div>
+        <div class="note">
+          <p><strong>Edge Case Designs:</strong> Address all potential user scenarios in the interface.</p>
+          <img src="https://th.bing.com/th/id/OIP.QeN9ni8j7gZz8N7NYIhEXgHaD4?rs=1&pid=ImgDetMain" >
+        </div>
+        <button class="add-note-btn">Add Note</button>
+      </div>
+
+      <div class="column" id="done-column">
+        <h3><span class="dot green"></span>Done</h3>
+        <div class="note">
+          <p><strong>Information Architecture:</strong> Organize content structure for usability.</p>
+        </div>
+        <div class="note">
+          <p><strong>Code Convention:</strong> Establish consistent coding standards for the team.</p>
+        </div>
+        <div class="note">
+          <p><strong>Wireframes:</strong> Finalize low-fidelity designs for the main features.</p>
+          
+        </div>
+        <button class="add-note-btn">Add Note</button>
+      </div>
+
+      <div class="column" id="goals-column">
+        <h3><span class="dot black"></span>Goals</h3>
+        <div class="note">
+          <p><strong>MVP:</strong> Complete the minimum viable product for initial release.</p>
+        </div>
+        <div class="note">
+          <p><strong>Launch Plans:</strong> Develop a marketing and rollout strategy for the product.</p>
+         
+        </div>
+        <button class="add-note-btn">Add Note</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
